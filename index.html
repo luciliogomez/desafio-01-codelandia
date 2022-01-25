@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Codelandia</title>
+    <link rel="stylesheet" href="assets/style.css">
+    <link rel="stylesheet" href="assets/font-awesome/css/font-awesome.min.css">
+</head>
+<body>
+    <div class="content">
+        <header class="cabecalho container">
+            <div class="top">
+                <h3>Codelândia</h3>
+                <h3>blog</h3>
+            </div>
+            <div class="textbox">
+                <span class="search-icon"><i class="fa fa-search"></i></span>
+                <input type="text" placeholder="Pesquisar no blog">
+            </div>
+        </header>
+
+        <section class="posts container">
+            
+            <div class="post">
+                <div class="post-top">
+                    <span class="data">02 de Jul, 2021</span>
+                    <span class="icon"><i class="fa fa-heart-o"></i></span>
+                </div>
+                <div class="post-content">
+                    <h4 class="title">Agora é oficial: o Windows 11 está vindo</h4>
+                    <p  class="descricao">Lorem ipsum dolor sit, amet consectetur adipisicing elit. 
+                        Corrupti ipsam voluptates voluptatibus at.  facere har</p>
+                </div>
+            </div>
+
+            <div class="post">
+                <div class="post-top">
+                    <span class="data">02 de Jul, 2021</span>
+                    <span class="icon"><i class="fa fa-heart-o"></i></span>
+                </div>
+                <div class="post-content">
+                    <h4 class="title">Tim Berners-Lee vai leiloar código-fonte da web</h4>
+                    <p class="descricao">Lorem ipsum dolor sit, amet consectetur adipisicing elit. 
+                        Corrupti ipsam voluptates voluptatibus at. A necessitatibus,
+                         est optio eveniet atque, obcaecati asst optio eveniet atque, 
+                         obcaecati asst optio eveniet atque, obcaecati assumenda facere har</p>
+                </div>
+            </div>
+
+            <div class="post">
+                <div class="post-top">
+                    <span class="data">02 de Jul, 2021</span>
+                    <span class="icon"><i class="fa fa-heart-o"></i></span>
+                </div>
+                <div class="post-content">
+                    <h4 class="title">Tem firefox novo no pedaço e você vai querer migrar</h4>
+                    <p class="descricao">Lorem ipsum dolor sit, amet consectetur adipisicing elit. 
+                        </p>
+                </div>
+            </div>
+
+            <div class="post">
+                <div class="post-top">
+                    <span class="data">02 de Jul, 2021</span>
+                    <span class="icon"><i class="fa fa-heart-o"></i></span>
+                </div>
+                <div class="post-content">
+                    <h4 class="title">John McAfee, criador do antivírus McAfee, morre</h4>
+                    <p class="descricao">Lorem ipsum dolor sit, amet consectetur adipisicing elit. 
+                        Corrupti ipsam voluptates voluptatibus at. A necessitatibus,
+                         est optio eveniet atque, obcaecati assumenda facere har</p>
+                </div>
+            </div>
+
+        </section>
+    </div>
+
+    <script src="https://unpkg.com/scrollreveal"></script>
+
+    <script>
+        const sr = ScrollReveal({
+            origin: 'top',
+            distance: '50px',
+            duration: 2000,
+            reset: true
+        });
+
+        ScrollReveal().reveal('.post', { delay: 200 });
+        ScrollReveal().reveal('.data', { delay: 400 });
+        ScrollReveal().reveal('.title', { delay: 500 });
+        ScrollReveal().reveal('.descricao', { delay: 600 });
+    </script>
+</body>
+</html>
