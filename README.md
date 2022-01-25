@@ -24,4 +24,3 @@
 
 ## 🎉 Resultado
 
-### 🧐 Acesse o resultado clicando <a href="https://codelandia-blog-torrico.netlify.app" target="_blank">aqui</a>
